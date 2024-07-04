@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #7874e2;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.navbar-brand, .title-offcanvas {
+  font-size: 2.4rem;
+  /* 24px */
+}
+
+.navbar-text {
+  font-size: 1.4rem;
+
+  /* 16px */
+}
+.navbar-link {
+  margin: 15px;
+  transition: ease-in-out 0.3s;
+  &:hover {
+    color: #fff;
+  }
+}
+
+
+
+// Offcanvas
+
+
+.background-offcanvas {
+  background-color: #7874e2;
+}
+
+.custom.toggler {
+  width: 130px;
+  height: 50px;
+}
