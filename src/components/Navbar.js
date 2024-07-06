@@ -1,38 +1,44 @@
-// Bootstraps
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-
-export default function Header() {
+export default function Navbar() {
   return (
-    <Navbar expand="lg" className="navbar bg-body-primary">
-      <Container fluid>
-        <Navbar.Brand className="navbar-brand" href="#">Bauenneun</Navbar.Brand>
-        <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" className="custom-toggler"/>
-        <Navbar.Offcanvas className="background-offcanvas"
-          id="offcanvasNavbar-expand-lg"
-          aria-labelledby="offcanvasNavbarLabel-expand-lg"
-          placement="end"
+    <nav className="container navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          Bauenneun
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <Offcanvas.Header closeButton className='background-offcanvas navbar-text navbar-link'>
-            <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg" className='background-offcanvas title-offcanvas'>
-              Bauenneun
-            </Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-            <Nav className="ms-auto">
-              <Nav.Link className="navbar-text navbar-link" href="#home">Startseite</Nav.Link>
-              <Nav.Link className="navbar-text navbar-link " href="#models-house">Unsere Hausmodelle</Nav.Link>
-              <Nav.Link className="navbar-text navbar-link" href="#woweare">Wer wir sind</Nav.Link>
-              <Nav.Link className="navbar-text navbar-link" href="#why">Was wir tun & warum</Nav.Link>
-              <Nav.Link className="navbar-text navbar-link" href="#questions">FAQs</Nav.Link>
-            </Nav>
-          </Offcanvas.Body>
-        </Navbar.Offcanvas>
-      </Container>
-    </Navbar>
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div className="navbar-nav">
+            <a className="nav-link active" aria-current="page" href="#">
+              Startseite
+            </a>
+            <a className="nav-link" href="#">
+              Unsere Hausmodelle
+            </a>
+            <a className="nav-link" href="#">
+              Wer wir sind
+            </a>
+            <a className="nav-link" href="#">
+              Was wir tun & warum
+            </a>
+            <a className="nav-link" href="#">
+              FAQs
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 }
