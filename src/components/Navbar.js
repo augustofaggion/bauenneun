@@ -31,11 +31,9 @@ export default function Navbar() {
               Wer wir sind
             </a>
             <a className="nav-link" href="#">
-              Was wir tun & warum
+              Kontakt uns
             </a>
-            <a className="nav-link" href="#">
-              FAQs
-            </a>
+
           </div>
         </div>
       </div>
