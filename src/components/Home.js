@@ -6,10 +6,10 @@ export default function Home() {
       <div class="row padding">
         {/* Left */}
         <div className="col-md-6 left-side">
-          <h2 className="header-secondary">Wir bauen</h2>
-          <h3 className="header-terciary">Sehr modern und stilvoll</h3>
-          <h2 className="header-secondary">Gebäude</h2>
-          <p className="text">
+          <h2 className="header-secondary py-3">Wir bauen</h2>
+          <h3 className="header-terciary py-3">Sehr modern und stilvoll</h3>
+          <h2 className="header-secondary py-3">Gebäude</h2>
+          <p className="text py-3">
             Ihre Antworten auf diese Fragen helfen uns, eine erste
             Übereinstimmung zwischen Ihnen, dem potenziellen Kunden, und Design
             und Bau zu finden.
