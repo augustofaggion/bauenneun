@@ -16,7 +16,7 @@ function App() {
       <Home />
       <HowItWorks />
       <About />
-      <Testimonials />
+      <Testimonials/>
       <Footer/>
     </>
   );
