@@ -1,6 +1,6 @@
 
 .testimonials{
-  background: #f4f4f4;
+  background: $main-color;
   padding: 20px;
   margin-top: 20px;
 
@@ -8,8 +8,16 @@
 .testimonials-img {
   width: 100%;
   height: 300px;
+  border-radius: 1.5rem;
+}
+
+.text-testimonials {
+  font-size: 1.6rem;
+  color: $text-color;
+
 }
 
 .sub-text {
   font-size: 1.4rem;
+  font-style: italic;
 }
