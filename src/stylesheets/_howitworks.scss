@@ -1,21 +1,28 @@
 // add avatar images
-
+@import "variables";
 .how-box {
-  background-color: #987070;
+  background-color: $fourth-color;
 }
 
 
-.header-secondar-how {
-  font-size: 5.2rem;
+.header-secondary-how {
+  font-size: 4.2rem;
+  color: $main-color;
+  font-weight: bold;
 }
 
 .text-how {
-  font-size: 4.8rem;
-  background-color: black;
+  font-size: 3.6rem;
+  background-color: $main-color;
   padding: 1.4rem 2.8rem;
 }
 
-.span-how {
-  background-color: white;
-  padding: 1.4rem ;
+.text-info {
+  font-size: 1.8rem;
+  color: $second-text-color;
 }
+
+// .span-how {
+//   background-color: $third-color;
+//   padding: 1.4rem 2.8rem;
+// }
