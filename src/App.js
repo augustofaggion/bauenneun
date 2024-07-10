@@ -6,6 +6,7 @@ import HowItWorks from "./components/HowItWorks";
 import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <HowItWorks />
       <About />
       <Testimonials/>
+      <Contact/>
       <Footer/>
     </>
   );
