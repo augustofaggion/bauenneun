@@ -2,7 +2,7 @@ import howImg from "../img/how/kitchen.jpg";
 
 export default function About() {
   return (
-    <div className="container-fluid py-5">
+    <div className="about container-fluid py-5">
       <div className="row padding">
         <div class="col-md-6 left-side">
           <h2 className="header-secondary">Über unser Unternehmen</h2>

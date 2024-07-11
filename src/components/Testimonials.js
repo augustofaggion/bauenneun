@@ -3,10 +3,10 @@ import manPhoto from "../img/testimonials/man.jpg";
 
 export default function Testimonials() {
   return (
-    <div className="container-fluid row padding testimonials py-5">
+    <div className="row padding testimonials py-5">
       <div className="col-md-4 d-flex flex-column justify-content-center ">
-        <h2 className="header-terciary py-3">Zufriedene Kunden</h2>
-        <p className="text py-3">
+        <h2 className="header-terciary py-3 header-testimonials">Zufriedene Kunden</h2>
+        <p className="text py-3 text-testimonials">
           Unsere Kunden sind von der Qualität und dem Engagement unserer
           Teammitglieder begeistert. Hier sind einige ihrer Geschichten:
         </p>

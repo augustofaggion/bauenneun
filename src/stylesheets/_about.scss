@@ -1,7 +1,25 @@
 @import "variables";
 
+.about {
+  background-color: $main-color;
+}
+
 .text-about{
   font-size: 1.8rem;
   color: $text-color;
   padding: 1.8rem 0;
 }
+
+
+  @media (max-width: 900px) {
+    .about  {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    /* Optional: Reset any margins/paddings that might affect the layout */
+    .about .col-md-6 {
+
+    }
+  }
