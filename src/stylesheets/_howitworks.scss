@@ -22,7 +22,37 @@
   color: $second-text-color;
 }
 
-// .span-how {
-//   background-color: $third-color;
-//   padding: 1.4rem 2.8rem;
-// }
+@media screen and (max-width: 850px) {
+  .header-secondary-how {
+    font-size: 3.6rem;
+  }
+
+  .text-how {
+    font-size: 2.8rem;
+  }
+
+  .text-info {
+    font-size: 1.4rem;
+  }
+  .how-it-box {
+    padding: 4rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  // .header-secondary-how {
+  //   font-size: 3.2rem;
+  // }
+
+  // .text-how {
+  //   font-size: 2.4rem;
+  // }
+
+  // .text-info {
+  //   font-size: 1.2rem;
+  // }
+  // .how-it-box {
+
+  // }
+
+}

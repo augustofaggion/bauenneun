@@ -21,8 +21,9 @@ export default function HowItWorks() {
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <div>
+      <div class="col-md-6 how-it-box">
+        <div class="row">
+        <div className="col-md-12">
           <h2 className="header-secondary-how">Wie Gebäude funktionieren</h2>
           <p className="text-info">
             In dieser Phase können Sie das Aussehen und das Gefühl Ihres Hauses
@@ -32,7 +33,7 @@ export default function HowItWorks() {
         </div>
         <div>
           <h2 className="header-secondary-how">Was Sie bekommen...</h2>
-          <p className="text-info">
+          <p className="text-info ">
             Ihr Zuhause wird mindestens 20% weniger kosten als bei unseren
             Mitbewerbern, was bedeutet, dass Sie mindestens 200.000 $ bei einem
             92,9 m² großen Haus sparen, wenn Sie mit uns bauen.
@@ -47,6 +48,7 @@ export default function HowItWorks() {
             zufrieden zu sein, weil wir genau das entwerfen, was Sie in 3D
             gebaut haben.
           </p>
+        </div>
         </div>
       </div>
     </div>
