@@ -1,3 +1,35 @@
+@import "variables";
+
 .footer-container {
-  width: 100rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $footer-color;
+}
+
+.footer-box {
+  padding: 4.5rem;
+  text-align: center;
+}
+
+.address-main {
+  font-size: 1.6rem;
+}
+
+.address-text {
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  padding: 2rem 0;
+}
+
+.icon-footer {
+  width: 2rem;
+  height: 2rem;
+}
+
+.impressum a {
+  padding: 0 1rem;
 }

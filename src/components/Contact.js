@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="container-fluid contact">
+    <div className="container-fluid contact pb-5">
       <form className="form ">
         <h3 className="header-terciary">Kontaktieren uns</h3>
         <div data-mdb-input-init className="form-outline mb-4">
