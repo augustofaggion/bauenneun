@@ -7,24 +7,13 @@ export default function About() {
         <div class="col-md-6 left-side">
           <h2 className="header-secondary">Über unser Unternehmen</h2>
           <p className="text-about">
-            Bauenneun ist ein führendes Bauunternehmen, das sich auf moderne und
-            stilvolle Wohngebäude spezialisiert hat. Mit jahrelanger Erfahrung
-            bieten wir Qualität, Zuverlässigkeit und außergewöhnlichen
-            Kundenservice. Unsere Mission ist es, hochwertige, maßgeschneiderte
-            Häuser zu liefern, die Ihren Bedürfnissen entsprechen.
-          </p>
-          <p className="text-about">
-            Unser erfahrenes Team arbeitet eng mit jedem Kunden zusammen, um
-            sicherzustellen, dass jedes Projekt reibungslos verläuft. Wir nutzen
-            moderne Technologien und Baumethoden für effiziente und nachhaltige
-            Bauwerke.
-          </p>
-          <p className="text-about">
-            Transparenz und Kundenzufriedenheit stehen bei uns im Mittelpunkt.
-            Wir bieten detaillierte 3D-Designs an, damit unsere Kunden eine
-            klare Vorstellung ihres zukünftigen Zuhauses haben. Unser Ziel ist
-            es, den Bauprozess stressfrei zu gestalten und die Erwartungen
-            unserer Kunden zu übertreffen.
+            Bauenneun ist ein führendes Bauunternehmen, spezialisiert auf
+            moderne Wohngebäude. Wir bieten Qualität, Zuverlässigkeit und
+            außergewöhnlichen Kundenservice, um maßgeschneiderte Häuser zu
+            liefern. Unser erfahrenes Team nutzt moderne Technologien für
+            effiziente und nachhaltige Bauwerke. Transparenz und
+            Kundenzufriedenheit stehen im Mittelpunkt, mit detaillierten
+            3D-Designs und einem stressfreien Bauprozess.
           </p>
         </div>
         <div className="col-md-6 right-side">

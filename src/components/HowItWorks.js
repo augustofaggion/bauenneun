@@ -1,6 +1,8 @@
 export default function HowItWorks() {
   return (
-    <div className="container-fluid row padding how-box">
+    <div>
+    <div className="container-fluid"></div>
+    <div className="row padding how-box">
       <div className="col-md-6 ">
         <div className="text row">
           <div className="col-md-12"> {/* Adjusted for proper column usage */}
@@ -47,6 +49,7 @@ export default function HowItWorks() {
           </p>
         </div>
       </div>
+    </div>
     </div>
   );
 }
