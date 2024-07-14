@@ -1,6 +1,18 @@
+import { useState } from 'react';
+
 export default function Contact() {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const toggleCheckbox = () => {
+    setIsChecked(!isChecked);
+  }
+
+  const message = () => {
+    alert("Ihre Nachricht wurde erfolgreich gesendet!");
+  }
+
   return (
-    <div className="container-fluid contact pb-5">
+    <div className="container-fluid contact pb-5" id="contact">
       <form className="form ">
         <h3 className="header-terciary">Kontaktieren uns</h3>
         <div data-mdb-input-init className="form-outline mb-4">
@@ -36,7 +48,8 @@ export default function Contact() {
             type="checkbox"
             value=""
             id="form4Example4"
-            checked
+            checked={isChecked}
+            onChange={toggleCheckbox}
           />
           <label className="form-check-label" for="form4Example4">
             Send me a copy of this message
@@ -48,6 +61,7 @@ export default function Contact() {
             data-mdb-ripple-init
             type="button"
             className="btn btn-primary btn-block mb-4 btn-contact"
+            onClick={message}
           >
             Send
           </button>

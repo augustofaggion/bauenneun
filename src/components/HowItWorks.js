@@ -1,6 +1,6 @@
 export default function HowItWorks() {
   return (
-    <div>
+    <div id="how-it-works">
     <div className="container-fluid"></div>
     <div className="row padding how-box">
       <div className="col-md-6 ">

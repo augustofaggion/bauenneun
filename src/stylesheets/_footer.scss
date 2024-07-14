@@ -33,3 +33,12 @@
 .impressum a {
   padding: 0 1rem;
 }
+
+.impressum a{
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: $second-color;
+    background-color: $fourth-color;
+  }
+}

@@ -2,7 +2,7 @@ import homeImg from "../img/home/modern-house.jpg";
 
 export default function Home() {
   return (
-    <div className="container-fluid py-5 home">
+    <div className="container-fluid py-5 home" id="home">
       <div class="row padding">
         {/* Left */}
         <div className="col-md-6 left-side">

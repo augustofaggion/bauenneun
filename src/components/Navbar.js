@@ -21,16 +21,19 @@ export default function Navbar() {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">
+            <a className="nav-link active" aria-current="page" href="#home">
               Startseite
             </a>
-            <a className="nav-link" href="#">
-              Unsere Hausmodelle
+            <a className="nav-link" href="#how-it-works">
+              Wie es funktioniert
             </a>
-            <a className="nav-link" href="#">
-              Wer wir sind
+            <a className="nav-link" href="#about-us">
+              Über uns
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="#testimonials">
+              Testimonials
+            </a>
+            <a className="nav-link" href="#contact">
               Kontakt uns
             </a>
 

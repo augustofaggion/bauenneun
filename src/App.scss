@@ -24,12 +24,13 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 html {
 font-size: 62.5%;
 /* We use 62.5% that is equal 10px in a responsive way = easier to use rem */
+scroll-behavior: smooth;
 }
 
 body {
