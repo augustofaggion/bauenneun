@@ -1,9 +1,3 @@
-import {
-  HomeIcon,
-  DevicePhoneMobileIcon,
-  EnvelopeIcon,
-} from "@heroicons/react/20/solid";
-
 export default function Footer() {
   return (
     <div className="container-fluid footer-container">
