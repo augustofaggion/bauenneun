@@ -12,6 +12,7 @@ export default function Contact() {
   }
 
   return (
+    <>
     <div className="container-fluid contact pb-5" id="contact">
       <form className="form ">
         <h3 className="header-terciary">Kontaktieren uns</h3>
@@ -68,5 +69,6 @@ export default function Contact() {
         </div>
       </form>
     </div>
+    </>
   );
 }

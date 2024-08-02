@@ -1,5 +1,6 @@
 export default function HowItWorks() {
   return (
+    <>
     <div id="how-it-works">
     <div className="container-fluid"></div>
     <div className="row padding how-box">
@@ -53,5 +54,6 @@ export default function HowItWorks() {
       </div>
     </div>
     </div>
+    </>
   );
 }

@@ -3,6 +3,7 @@ import manPhoto from "../img/testimonials/man.jpg";
 
 export default function Testimonials() {
   return (
+    <>
     <div className="row padding testimonials py-5" id="testimonials">
       <div className="col-md-4 d-flex flex-column justify-content-center ">
         <h2 className="header-terciary py-3 header-testimonials">Zufriedene Kunden</h2>
@@ -33,5 +34,6 @@ export default function Testimonials() {
         </p>
       </div>
     </div>
+    </>
   );
 }

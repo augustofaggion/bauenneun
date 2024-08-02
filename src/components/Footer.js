@@ -1,11 +1,6 @@
-import {
-  HomeIcon,
-  DevicePhoneMobileIcon,
-  EnvelopeIcon,
-} from "@heroicons/react/20/solid";
-
 export default function Footer() {
   return (
+    <>
     <div className="container-fluid footer-container">
       <hr class="hr" />
       <footer class="row  p-5 my-5 ">
@@ -36,27 +31,27 @@ export default function Footer() {
         <div class="col-md-4 footer-box mb-3">
           <ul class="nav flex-column">
             <li class="nav-item mb-2 py-3">
-              <a href="#" class="nav-link p-0 text-muted">
+              <a href="#home" class="nav-link p-0 text-muted">
                 Startseite
               </a>
             </li>
             <li class="nav-item mb-2  py-3">
-              <a href="#" class="nav-link p-0 text-muted">
+              <a href="#our" class="nav-link p-0 text-muted">
                 Unsere Hausmodelle
               </a>
             </li>
             <li class="nav-item mb-2 py-3">
-              <a href="#" class="nav-link p-0 text-muted">
+              <a href="#who" class="nav-link p-0 text-muted">
                 Wer wir sind
               </a>
             </li>
             <li class="nav-item mb-2 py-3">
-              <a href="#" class="nav-link p-0 text-muted">
+              <a href="#testimonials" class="nav-link p-0 text-muted">
                 Testimonials
               </a>
             </li>
             <li class="nav-item mb-2 py-3">
-              <a href="#" class="nav-link p-0 text-muted">
+              <a href="#contact" class="nav-link p-0 text-muted">
                 Kontaktieren
               </a>
             </li>
@@ -66,32 +61,33 @@ export default function Footer() {
         <div class="col-md-4 footer-box mb-3">
           <ul class="nav flex-column">
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link py-3 text-muted">
+              <a href="#instagram" class="nav-link py-3 text-muted">
                 Instagram
               </a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link py-3 text-muted">
+              <a href="#twitter" class="nav-link py-3 text-muted">
                 Twitter
               </a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link py-3 text-muted">
+              <a href="#facebook" class="nav-link py-3 text-muted">
                 Facebook
               </a>
             </li>
             <li class="nav-item mb-2">
-              <a href="#" class="nav-link py-3 text-muted">
+              <a href="#pinterest" class="nav-link py-3 text-muted">
                 Pinterest
               </a>
             </li>
           </ul>
         </div>
         <div className="impressum d-flex justify-content-center">
-          <a href="" className="px-5">Impressum</a>
-          <a href="" className="px-5">Datenschutz</a>
+          <a href="#impressum" className="px-5">Impressum</a>
+          <a href="#Datenschutz" className="px-5">Datenschutz</a>
         </div>
       </footer>
     </div>
+    </>
   );
 }
