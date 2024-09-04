@@ -10,10 +10,14 @@ Bauenneun stands for precision, reliability, and innovative construction concept
 
 This project aims to develop a user-friendly website for Bauenneun that showcases the company's services and attracts potential clients.
 
+## Link to project
+
+[Website Link](https://bauenneun.netlify.app/)
+
 ## Technologies Used
 
 - **Frontend**: React, Bootstrap
-- **Hosting**: Netlifly (not yet hosted the project)
+- **Hosting**: Netlifly 
 - **Version Control**: Git, GitHub
 
 ## Features
