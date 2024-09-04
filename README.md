@@ -12,7 +12,7 @@ This project aims to develop a user-friendly website for Bauenneun that showcase
 
 ## Link to project
 
-[Website Link](https://bauenneun.netlify.app/)
+[Bauenneun Website Link](https://bauenneun.netlify.app/)
 
 ## Technologies Used
 
